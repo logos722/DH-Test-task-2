@@ -1,0 +1,21 @@
+@import 'blocks/posts';
+@import 'blocks/headers';
+@import 'blocks/searchForm';
+@import 'blocks/paginator';
+@import 'blocks/comments';
+@import 'blocks/notFound';
+
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.comments__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  button {
+    height: 30px;
+  }
+}
