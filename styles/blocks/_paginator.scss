@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  list-style: none;
+  &__previous {
+    cursor: pointer;
+  }
+  &__next {
+    cursor: pointer;
+  }
+  li {
+    text-align: center;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+  }
+}
+
+.activePage {
+  background-color: orange;
+}

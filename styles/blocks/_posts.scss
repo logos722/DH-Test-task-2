@@ -1,0 +1,19 @@
+.post {
+  border: 2px solid teal;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px;
+  width: 600px;
+  &__header {
+    a {
+      text-decoration: none;
+      color: #000;
+      &:visited {
+        color: #000;
+      }
+    }
+  }
+  &__descr {
+    color: yellowgreen;
+  }
+}
